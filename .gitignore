@@ -1,0 +1,106 @@
+# Fichiers générés par Gradle
+.gradle/
+build/
+/*/build/
+.externalNativeBuild
+.cxx/
+*.ap_
+*.aab
+
+# Fichiers générés par Android Studio
+*.iml
+.idea/
+local.properties
+.DS_Store
+/captures
+.navigation/
+.settings/
+output.json
+
+# Fichiers native (NDK)
+obj/
+.externalNativeBuild
+
+# Fichiers générés par Java
+*.class
+*.war
+*.ear
+*.jar
+*.dex
+
+# Fichiers générés par Proguard
+proguard/
+
+# Fichiers de dossier de configuration
+bin/
+gen/
+out/
+
+# Fichiers spécifiques à l'application
+app/release/
+app/debug/
+app/src/androidTest/
+app/*.jks
+app/*.keystore
+app/google-services.json
+
+# Backup files
+*.bak
+*.backup
+*~
+*.swp
+
+# Logs
+*.log
+
+# Fichiers système Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Données utilisateur spécifiques à macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Fichiers Eclipse
+.classpath
+.project
+.metadata/
+tmp/
+*.tmp
+*.swp
+*~.nib
+
+# Fichiers Kotlin Multiplatform
+kotlin-js-store/
+
+# Divers
+.hprof
+.gradle/
+.externalNativeBuild/
+.cxx/
+*.jks
+*.keystore
+
+# Fichiers de configuration Firebase
+google-services.json
+GoogleService-Info.plist
+
+# Secrets et clés API
+/*/src/**/secrets.xml
+/*/src/**/keys.xml
+/*/src/**/api_keys.properties
+
+# Crash logs
+crashlytics-build.properties
+fabric.properties
+com_crashlytics_export_strings.xml
+
+# Fichiers Gradle wrapper (il est recommandé de les inclure, mais c'est optionnel)
+# gradle/wrapper/gradle-wrapper.jar
+# gradle/wrapper/gradle-wrapper.properties
