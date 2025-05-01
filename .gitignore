@@ -101,6 +101,7 @@ crashlytics-build.properties
 fabric.properties
 com_crashlytics_export_strings.xml
 
+.vscode/
 # Fichiers Gradle wrapper (il est recommandé de les inclure, mais c'est optionnel)
 # gradle/wrapper/gradle-wrapper.jar
 # gradle/wrapper/gradle-wrapper.properties
