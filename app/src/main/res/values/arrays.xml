@@ -1,2 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <!-- Valeurs initiales pour le filtre de prix -->
+    <array name="initial_price_range">
+        <item>0.0</item>
+        <item>500.0</item>
+    </array>
+
+    <!-- Options de tri -->
+    <string-array name="sort_options">
+        <item>@string/relevance</item>
+        <item>@string/price_low_to_high</item>
+        <item>@string/price_high_to_low</item>
+        <item>@string/newest</item>
+        <item>@string/average_rating</item>
+        <item>@string/popularity</item>
+    </string-array>
+
+    <!-- Catégories de produits -->
+    <string-array name="product_categories">
+        <item>@string/electronics</item>
+        <item>@string/clothing</item>
+        <item>@string/home</item>
+        <item>@string/books</item>
+        <item>@string/sports</item>
+        <item>@string/beauty</item>
+        <item>@string/toys</item>
+        <item>@string/food</item>
+    </string-array>
+
+    <!-- Options de filtrage par note -->
+    <string-array name="rating_filter_options">
+        <item>@string/four_stars_and_up</item>
+        <item>@string/three_stars_and_up</item>
+        <item>@string/all_ratings</item>
+    </string-array>
+</resources>

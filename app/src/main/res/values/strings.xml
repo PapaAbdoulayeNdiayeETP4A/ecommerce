@@ -1,3 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Ecommerce</string>
+    <string name="app_name">E-Commerce</string>
+
+    <!-- Navigation -->
+    <string name="home1">Accueil</string>
+    <string name="categories">Catégories</string>
+    <string name="cart">Panier</string>
+    <string name="profile">Profil</string>
+    <string name="notifications">Notifications</string>
+    <string name="settings">Paramètres</string>
+    <string name="wishlist">Liste de souhaits</string>
+    <string name="orders">Commandes</string>
+    <string name="logout">Déconnexion</string>
+
+    <!-- Authentication -->
+    <string name="login">Connexion</string>
+    <string name="register">Inscription</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="confirm_password">Confirmer le mot de passe</string>
+    <string name="forgot_password">Mot de passe oublié?</string>
+    <string name="welcome_back">Bon retour parmi nous!</string>
+    <string name="create_account">Créer un compte</string>
+    <string name="full_name">Nom complet</string>
+    <string name="phone_number">Numéro de téléphone</string>
+    <string name="address">Adresse</string>
+    <string name="already_have_account">Vous avez déjà un compte?</string>
+    <string name="dont_have_account">Vous n\'avez pas de compte?</string>
+    <string name="login_success">Connexion réussie!</string>
+    <string name="register_success">Inscription réussie!</string>
+    <string name="email_required">L\'email est requis</string>
+    <string name="password_required">Le mot de passe est requis</string>
+    <string name="name_required">Le nom est requis</string>
+    <string name="phone_required">Le numéro de téléphone est requis</string>
+    <string name="address_required">L\'adresse est requise</string>
+    <string name="password_length">Le mot de passe doit contenir au moins 6 caractères</string>
+    <string name="password_mismatch">Les mots de passe ne correspondent pas</string>
+    <string name="please_login">Veuillez vous connecter pour continuer</string>
+
+    <!-- Product listings -->
+    <string name="featured_products">Produits en vedette</string>
+    <string name="new_arrivals">Nouveautés</string>
+    <string name="see_all">Voir tout</string>
+    <string name="search_products">Rechercher des produits</string>
+    <string name="sort_by">Trier par</string>
+    <string name="filter">Filtrer</string>
+    <string name="price_range">Fourchette de prix</string>
+    <string name="category">Catégorie</string>
+    <string name="rating">Évaluation</string>
+    <string name="product_image">Image du produit</string>
+    <string name="category_image">Image de catégorie</string>
+    <string name="no_products_found">Aucun produit trouvé</string>
+
+    <!-- Product details -->
+    <string name="add_to_cart">Ajouter au panier</string>
+    <string name="buy_now">Acheter maintenant</string>
+    <string name="description">Description</string>
+    <string name="specifications">Spécifications</string>
+    <string name="reviews">Avis</string>
+    <string name="similar_products">Produits similaires</string>
+    <string name="quantity">Quantité: %1$d</string>
+    <string name="available_stock">En stock: %1$d</string>
+    <string name="out_of_stock">Rupture de stock</string>
+    <string name="add_to_favorites">Ajouter aux favoris</string>
+    <string name="increase_quantity">Augmenter la quantité</string>
+    <string name="decrease_quantity">Diminuer la quantité</string>
+    <string name="write_review">Écrire un avis</string>
+
+    <!-- Cart -->
+    <string name="cart_empty">Votre panier est vide</string>
+    <string name="subtotal">Sous-total</string>
+    <string name="shipping">Frais de livraison</string>
+    <string name="tax">Taxes</string>
+    <string name="total">Total</string>
+    <string name="proceed_to_checkout">Passer à la caisse</string>
+    <string name="remove_item">Supprimer l\'article</string>
+    <string name="item_count">%1$d article(s)</string>
+    <string name="item_removed">Article supprimé du panier</string>
+
+    <!-- Checkout -->
+    <string name="checkout">Paiement</string>
+    <string name="shipping_address">Adresse de livraison</string>
+    <string name="payment_method">Méthode de paiement</string>
+    <string name="order_summary">Récapitulatif de la commande</string>
+    <string name="items">Articles</string>
+    <string name="place_order">Passer la commande</string>
+    <string name="edit">Modifier</string>
+    <string name="add_new_address">Ajouter une nouvelle adresse</string>
+    <string name="credit_card">Carte de crédit</string>
+    <string name="paypal">PayPal</string>
+    <string name="cash_on_delivery">Paiement à la livraison</string>
+    <string name="confirm_order">Confirmer la commande</string>
+    <string name="confirm_order_message">Êtes-vous sûr de vouloir passer cette commande?</string>
+    <string name="confirm">Confirmer</string>
+    <string name="cancel">Annuler</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+
+    <!-- Order confirmation -->
+    <string name="order_confirmation">Confirmation de commande</string>
+    <string name="thank_you_for_order">Merci pour votre commande!</string>
+    <string name="order_confirmation_message">Votre commande a été traitée avec succès. Vous recevrez bientôt un email de confirmation.</string>
+    <string name="order_information">Informations de commande</string>
+    <string name="order_number">Numéro de commande</string>
+    <string name="order_date">Date de commande</string>
+    <string name="view_my_orders">Voir mes commandes</string>
+    <string name="continue_shopping">Continuer les achats</string>
+    <string name="order_success">Commande réussie</string>
+
+    <!-- Orders -->
+    <string name="order_history">Historique des commandes</string>
+    <string name="no_orders">Vous n\'avez pas encore de commandes</string>
+    <string name="order_id_format">Commande #%1$s</string>
+    <string name="tracking_number">Numéro de suivi</string>
+    <string name="cancel_order">Annuler la commande</string>
+    <string name="track_order">Suivre la commande</string>
+    <string name="request_refund">Demander un remboursement</string>
+    <string name="contact_support">Contacter le support</string>
+    <string name="order_cancelled_success">La commande a été annulée avec succès</string>
+    <string name="refund_request_submitted">Demande de remboursement soumise</string>
+    <string name="cancel_order_confirmation">Êtes-vous sûr de vouloir annuler cette commande?</string>
+    <string name="tracking_not_available">Le suivi n\'est pas encore disponible</string>
+    <string name="customer_support_not_available">Le support client n\'est pas disponible pour le moment</string>
+    <string name="error_order_not_found">Commande introuvable</string>
+
+    <!-- Wishlist -->
+    <string name="wishlist_empty">Votre liste de souhaits est vide</string>
+    <string name="product_added_to_wishlist">Produit ajouté à la liste de souhaits</string>
+    <string name="product_removed_from_wishlist">Produit supprimé de la liste de souhaits</string>
+    <string name="product_added_to_cart">Produit ajouté au panier</string>
+
+    <!-- Notifications -->
+    <string name="no_notifications">Vous n\'avez pas de notifications</string>
+    <string name="clear_all_notifications">Effacer toutes les notifications</string>
+    <string name="clear_all_notifications_confirmation">Êtes-vous sûr de vouloir effacer toutes les notifications?</string>
+    <string name="mark_all_as_read">Tout marquer comme lu</string>
+
+    <!-- Profile -->
+    <string name="edit_profile">Modifier le profil</string>
+    <string name="my_addresses">Mes adresses</string>
+    <string name="my_payment_methods">Mes méthodes de paiement</string>
+    <string name="help_support">Aide et support</string>
+    <string name="about_us">À propos de nous</string>
+    <string name="privacy_policy">Politique de confidentialité</string>
+    <string name="terms_conditions">Termes et conditions</string>
+    <string name="logout_confirmation">Êtes-vous sûr de vouloir vous déconnecter?</string>
+    <string name="not_implemented_yet">Cette fonctionnalité n\'est pas encore implémentée</string>
+
+    <!-- Errors and feedback -->
+    <string name="network_error">Erreur de réseau. Veuillez vérifier votre connexion internet.</string>
+    <string name="server_error">Erreur du serveur. Veuillez réessayer plus tard.</string>
+    <string name="unknown_error">Une erreur inconnue s\'est produite. Veuillez réessayer.</string>
+    <string name="loading">Chargement...</string>
+    <string name="submit">Soumettre</string>
+    <string name="retry">Réessayer</string>
+    <string name="app_logo">Logo de l\'application</string>
+    <string name="category_background">Arrière-plan de catégorie</string>
+    <string name="quantity_format">Qté: %1$d</string>
+
+    <!---->
+    <string name="search_results_for">Résultats pour \"%1$s\"</string>
+    <string name="no_search_results">Aucun résultat trouvé pour \"%1$s\"</string>
+    <string name="no_results_found">Aucun résultat trouvé</string>
+    <string name="right_arrow">Flèche droite</string>
+    <string name="no_reviews_yet">Aucun avis pour le moment</string>
+    <string name="customer_reviews">Avis clients</string>
+    <string name="your_review">Votre avis</string>
+    <string name="review_submitted">Avis soumis avec succès</string>
+    <string name="review_text_required">Veuillez saisir votre avis</string>
+    <string name="rating_required">Veuillez attribuer une note</string>
+    <string name="review_count">%d avis</string>
+    <string name="verified_purchase">Achat vérifié</string>
+    <string name="user_profile">Photo de profil</string>
+    <string name="price_low_to_high">Prix: croissant</string>
+    <string name="price_high_to_low">Prix: décroissant</string>
+    <string name="relevance">Pertinence</string>
+    <string name="newest">Plus récent</string>
+    <string name="average_rating">Note moyenne</string>
+    <string name="popularity">Popularité</string>
+    <string name="reset">Réinitialiser</string>
+    <string name="apply">Appliquer</string>
+    <string name="four_stars_and_up">4 étoiles et plus</string>
+    <string name="three_stars_and_up">3 étoiles et plus</string>
+    <string name="all_ratings">Toutes les notes</string>
+    <string name="electronics">Électronique</string>
+    <string name="clothing">Vêtements</string>
+    <string name="books">Livres</string>
+    <string name="home">Maison</string>
+    <string name="sports">Sports</string>
+    <string name="beauty">Beauté</string>
+    <string name="toys">Jouets</string>
+    <string name="food">Alimentation</string>
+    <string name="max_quantity_reached">Quantité maximale atteinte</string>
+    <string name="no_items">Aucun article</string>
+    <string name="order_details">Détails de la commande</string>
+    <string name="notification_channel_id">ecommerce_notifications</string>
+    <string name="notification_channel_name">Notifications E-commerce</string>
+    <string name="notification_channel_description">Notifications pour les commandes, promotions et mises à jour</string>
+    <string name="stripe_publishable_key">pk_test_your_key_here</string>
+
+    <!-- Plurals -->
+    <plurals name="item_count">
+        <item quantity="one">%d article</item>
+        <item quantity="other">%d articles</item>
+    </plurals>
 </resources>
